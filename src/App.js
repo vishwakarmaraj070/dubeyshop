@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./component/Navbar";
+import IntroSection from "./pages/IntroSection";
+import Footer from "./component/Footer";
+import AboutUs from "./pages/AboutUs";
+import Team from "./pages/Team";
+import Testimonial from "./pages/Testimonial";
+import Contact from "./pages/Contact";
+import Product from "./pages/Product";
+import Gallery from "./pages/Gallery";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div id="dubey-app">
+      {/* header */}
+      <header>
+        <Navbar />
+        <IntroSection />
       </header>
+      <AboutUs />
+      <Team />
+      <Testimonial />
+      <Product />
+      <Gallery />
+      <Contact />
+      {/* footer */}
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
