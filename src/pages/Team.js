@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 const Team = (props) => {
   return (
-    <div className="container pt-5 my-2 " id="team">
-      <section className="p-md-3 mx-md-5 text-center text-lg-left">
-        <h2 className="text-center mx-auto font-weight-bold text-info mb-4 pb-2">
+    <div className="py-5 my-5 " id="team">
+      <section className="p-md-3  container text-center text-lg-left">
+        <h2 className="text-center mx-auto font-weight-bold mb-4 pb-2">
           Our Team
         </h2>
         <div className="row">
@@ -19,12 +19,8 @@ const Team = (props) => {
               </div>
               <div className="text-center mt-3">
                 <h6 className="font-weight-bold pt-2">Alan Turing</h6>
-                <p className="text-muted">
-                  <small>
-                    <i>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </i>
-                  </small>
+                <p className="text-muted text-sm">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
             </div>
@@ -40,12 +36,8 @@ const Team = (props) => {
               </div>
               <div className="text-center mt-3">
                 <h6 className="font-weight-bold pt-2">Nathalie Fry</h6>
-                <p className="text-muted">
-                  <small>
-                    <i>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </i>
-                  </small>
+                <p className="text-muted text-sm">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
             </div>
@@ -61,12 +53,8 @@ const Team = (props) => {
               </div>
               <div className="text-center mt-3">
                 <h6 className="font-weight-bold pt-2">Billy Turner</h6>
-                <p className="text-muted">
-                  <small>
-                    <i>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </i>
-                  </small>
+                <p className="text-muted text-sm">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
             </div>
@@ -81,12 +69,8 @@ const Team = (props) => {
               </div>
               <div className="text-center mt-3">
                 <h6 className="font-weight-bold pt-2">Veronica Smith</h6>
-                <p className="text-muted">
-                  <small>
-                    <i>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </i>
-                  </small>
+                <p className="text-muted text-sm">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
             </div>

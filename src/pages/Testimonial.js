@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Testimonial = (props) => {
   return (
-    <div className="container my-2">
+    <div className="container my-5">
       <section className="text-center dark-grey-text">
         <h2 className="font-weight-bold mb-4 pb-2 text-info">Testimonials</h2>
 

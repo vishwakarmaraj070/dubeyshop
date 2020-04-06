@@ -1,8 +1,8 @@
 .gallery {
   -webkit-column-count: 3;
-  column-count: 3;
+          column-count: 3;
   -webkit-column-width: 33%;
-  column-width: 33%;
+          column-width: 33%;
 }
 
 .gallery .pics {
@@ -12,15 +12,15 @@
 
 .gallery .animation {
   -webkit-transform: scale(1);
-  transform: scale(1);
+          transform: scale(1);
 }
 
 @media (max-width: 450px) {
   .gallery {
     -webkit-column-count: 1;
-    column-count: 1;
+            column-count: 1;
     -webkit-column-width: 100%;
-    column-width: 100%;
+            column-width: 100%;
   }
 }
 
@@ -37,5 +37,71 @@ button.close {
   z-index: 2;
   padding-right: 1rem;
   padding-top: 0.6rem;
+}
+
+.carousel {
+  height: 100%;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+  }
+}
+
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+  height: 100%;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.page-footer,
+.top-nav-collapse {
+  background-color: #1c2331;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1c2331;
+  }
+}
+
+#team,
+#contact,
+#products {
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#team *,
+#contact *,
+#products * {
+  color: white;
+}
+
+#team {
+  background-image: url("../images/team.jpg");
+}
+
+#products {
+  background-image: url("../images/product-bg.jpg");
+}
+
+#contact {
+  background-image: url("../images/footer-bg.jpg");
+}
+
+#contact label {
+  color: #00bcd4;
 }
 /*# sourceMappingURL=style.css.map */

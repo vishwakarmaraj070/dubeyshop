@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutUs = (props) => {
   return (
-    <div className="container my-5 py-2 " id="about">
+    <div className="container my-5" id="about">
       <section className="">
-        <h2 class="text-center font-weight-bold mb-4 pb-2 text-info">
+        <h2 className="text-center font-weight-bold mb-4 pb-2 text-info">
           About Us
         </h2>
         <div className="row">

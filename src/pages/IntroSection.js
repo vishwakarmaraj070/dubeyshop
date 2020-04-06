@@ -3,56 +3,158 @@ import PropTypes from "prop-types";
 
 const IntroSection = (props) => {
   return (
-    <div className="pt-5">
-      <div
-        id="home"
-        className="view jarallax"
-        data-jarallax='{"speed": 0.2}'
-        style={{
-          backgroundImage:
-            "url(https://mdbootstrap.com/img/Photos/Others/img%20%2853%29.jpg)",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center center",
-        }}
-      >
-        <div className="mask rgba-stylish-light">
-          <div className="container h-100 d-flex justify-content-center align-items-center">
-            <div className="row pt-5 mt-3">
-              <div className="col-md-12 mb-3">
-                <div className="intro-info-content text-center">
-                  <h1
-                    className="display-3 white-text mb-5 wow fadeInDown"
-                    data-wow-delay="0.3s"
-                  >
-                    ABOUT <a className="white-text font-weight-bold">US</a>
-                  </h1>
-                  <h5
-                    className="text-uppercase white-text mb-5 mt-1 font-weight-bold wow fadeInDown"
-                    data-wow-delay="0.3s"
-                  >
-                    Lorem ipsum dolor sit amet consectetur.{" "}
-                  </h5>
-                  <a
-                    className="btn btn-pink wow fadeInDown btn-rounded"
-                    data-wow-delay="0.3s"
-                    href="#product"
-                  >
-                    Product
-                  </a>
-                  <a
-                    className="btn btn-cyan wow fadeInDown btn-rounded"
-                    data-wow-delay="0.3s"
-                    href="#about"
-                  >
-                    About
-                  </a>
-                </div>
+    <div
+      id="home"
+      className="carousel slide carousel-fade"
+      data-ride="carousel"
+      style={{ height: "100vh" }}
+    >
+      <ol className="carousel-indicators">
+        <li data-target="#home" data-slide-to="0" className="active"></li>
+        <li data-target="#home" data-slide-to="1"></li>
+        <li data-target="#home" data-slide-to="2"></li>
+      </ol>
+
+      <div className="carousel-inner" role="listbox">
+        <div className="carousel-item active">
+          <div className="view">
+            <video className="video-intro" autoPlay loop muted>
+              <source
+                src="https://mdbootstrap.com/img/video/city.mp4"
+                type="video/mp4"
+              />
+            </video>
+
+            <div className="mask rgba-black-light d-flex justify-content-center align-items-center">
+              <div className="text-center white-text mx-5 wow fadeIn">
+                <h1 className="mb-4">
+                  <strong>Learn Bootstrap 4 with MDB</strong>
+                </h1>
+
+                <p>
+                  <strong>Best & free guide of responsive web design</strong>
+                </p>
+
+                <p className="mb-4 d-none d-md-block">
+                  <strong>
+                    The most comprehensive tutorial for the Bootstrap 4. Loved
+                    by over 500 000 users. Video and written versions available.
+                    Create your own, stunning website.
+                  </strong>
+                </p>
+
+                <a
+                  target="_blank"
+                  href="https://mdbootstrap.com/education/bootstrap/"
+                  className="btn btn-outline-white btn-lg"
+                >
+                  Start free tutorial
+                  <i className="fas fa-graduation-cap ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="carousel-item">
+          <div className="view">
+            <video className="video-intro" autoPlay loop muted>
+              <source
+                src="https://mdbootstrap.com/img/video/forest.mp4"
+                type="video/mp4"
+              />
+            </video>
+
+            <div className="mask rgba-black-light d-flex justify-content-center align-items-center">
+              <div className="text-center white-text mx-5 wow fadeIn">
+                <h1 className="mb-4">
+                  <strong>Learn Bootstrap 4 with MDB</strong>
+                </h1>
+
+                <p>
+                  <strong>Best & free guide of responsive web design</strong>
+                </p>
+
+                <p className="mb-4 d-none d-md-block">
+                  <strong>
+                    The most comprehensive tutorial for the Bootstrap 4. Loved
+                    by over 500 000 users. Video and written versions available.
+                    Create your own, stunning website.
+                  </strong>
+                </p>
+
+                <a
+                  target="_blank"
+                  href="https://mdbootstrap.com/education/bootstrap/"
+                  className="btn btn-outline-white btn-lg"
+                >
+                  Start free tutorial
+                  <i className="fas fa-graduation-cap ml-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="carousel-item">
+          <div className="view">
+            <video className="video-intro" autoPlay loop muted>
+              <source
+                src="https://mdbootstrap.com/img/video/Tropical.mp4"
+                type="video/mp4"
+              />
+            </video>
+
+            <div className="mask rgba-black-light d-flex justify-content-center align-items-center">
+              <div className="text-center white-text mx-5 wow fadeIn">
+                <h1 className="mb-4">
+                  <strong>Learn Bootstrap 4 with MDB</strong>
+                </h1>
+
+                <p>
+                  <strong>Best & free guide of responsive web design</strong>
+                </p>
+
+                <p className="mb-4 d-none d-md-block">
+                  <strong>
+                    The most comprehensive tutorial for the Bootstrap 4. Loved
+                    by over 500 000 users. Video and written versions available.
+                    Create your own, stunning website.
+                  </strong>
+                </p>
+
+                <a
+                  target="_blank"
+                  href="https://mdbootstrap.com/education/bootstrap/"
+                  className="btn btn-outline-white btn-lg"
+                >
+                  Start free tutorial
+                  <i className="fas fa-graduation-cap ml-2"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <a
+        className="carousel-control-prev"
+        href="#home"
+        role="button"
+        data-slide="prev"
+      >
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="sr-only">Previous</span>
+      </a>
+      <a
+        className="carousel-control-next"
+        href="#home"
+        role="button"
+        data-slide="next"
+      >
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="sr-only">Next</span>
+      </a>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import $ from "jquery";
 
 const Navbar = (props) => {
   const [activePage, setActivePage] = useState("home");
@@ -9,10 +10,19 @@ const Navbar = (props) => {
     );
   }, []);
 
+  useEffect(() => {
+    let tittle = $("title");
+    tittle.text(`DubeyJi | ${activePage}`);
+  }, [activePage]);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar cyan ">
       <div className="container smooth-scroll">
-        <a className="navbar-brand" href="#">
+        <a
+          className="navbar-brand"
+          href="#home"
+          onClick={() => setActivePage("home")}
+        >
           <div className="text-center mr-4">
             <strong>DubeyJi</strong>
             {/* <p className="mb-0 text-sm">Welding Shop</p> */}
