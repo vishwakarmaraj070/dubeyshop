@@ -15,6 +15,11 @@ const Navbar = (props) => {
     tittle.text(`DubeyJi | ${activePage}`);
   }, [activePage]);
 
+  const handleExpand = () => {
+    const target = $("#dubeyNav");
+    target.slideToggle("fast");
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar cyan ">
       <div className="container smooth-scroll">
@@ -24,22 +29,20 @@ const Navbar = (props) => {
           onClick={() => setActivePage("home")}
         >
           <div className="text-center mr-4">
-            <strong>DubeyJi</strong>
+            <strong>Dubey Shop</strong>
             {/* <p className="mb-0 text-sm">Welding Shop</p> */}
           </div>
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler collapsed"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarSupportedContent-7"
-          aria-controls="navbarSupportedContent-7"
-          aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={handleExpand}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <div className="collapse navbar-collapse" id="dubeyNav">
           <ul className="navbar-nav mr-auto">
             <li
               className={`nav-item ${

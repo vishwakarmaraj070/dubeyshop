@@ -28,7 +28,7 @@ const Gallery = (props) => {
           Gallery
         </h2>
         <div className="row">
-          <div className="col-md-12 dark-grey-text d-flex justify-content-center mb-5">
+          <div className="col-md-12 dark-grey-text d-flex flex-wrap justify-content-center mb-5">
             {btnText.map((btn) => (
               <button
                 key={btn}
@@ -45,7 +45,7 @@ const Gallery = (props) => {
         </div>
 
         <div className="gallery mb-5">
-          <div className="mb-3 pics all 2 animation">
+          <div className="mb-3 pics all gate railing animation">
             <a data-toggle="modal" data-target="#basicExampleModal">
               <img
                 className="img-fluid z-depth-1 rounded"
@@ -55,7 +55,7 @@ const Gallery = (props) => {
             </a>
           </div>
 
-          <div className="mb-3 pics animation all 1">
+          <div className="mb-3 pics animation all railing door">
             <a data-toggle="modal" data-target="#basicExampleModal">
               <img
                 className="img-fluid z-depth-1 rounded"
@@ -65,7 +65,7 @@ const Gallery = (props) => {
             </a>
           </div>
 
-          <div className="mb-3 pics animation all 1">
+          <div className="mb-3 pics animation window gate all ">
             <a data-toggle="modal" data-target="#basicExampleModal">
               <img
                 className="img-fluid z-depth-1 rounded"
@@ -75,7 +75,7 @@ const Gallery = (props) => {
             </a>
           </div>
 
-          <div className="mb-3 pics all 2 animation">
+          <div className="mb-3 pics all railing door window animation">
             <a data-toggle="modal" data-target="#basicExampleModal">
               <img
                 className="img-fluid z-depth-1 rounded"
@@ -85,7 +85,7 @@ const Gallery = (props) => {
             </a>
           </div>
 
-          <div className="mb-3 pics all 2 animation">
+          <div className="mb-3 pics all  door gate animation">
             <a data-toggle="modal" data-target="#basicExampleModal">
               <img
                 className="img-fluid z-depth-1 rounded"
@@ -95,7 +95,7 @@ const Gallery = (props) => {
             </a>
           </div>
 
-          <div className="mb-3 pics animation all 1">
+          <div className="mb-3 pics animation all window">
             <a data-toggle="modal" data-target="#basicExampleModal">
               <img
                 className="img-fluid z-depth-1 rounded"
