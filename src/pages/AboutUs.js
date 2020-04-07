@@ -5,7 +5,7 @@ const AboutUs = (props) => {
   return (
     <div className="container my-5" id="about">
       <section className="">
-        <h2 className="text-center font-weight-bold mb-4 pb-2 text-info">
+        <h2 className="text-center font-weight-bold mb-4 pb-3 text-info">
           About Us
         </h2>
         <div className="row">
@@ -22,15 +22,18 @@ const AboutUs = (props) => {
 
           <div className="col-md-7 col-sm-12 mb-md-0 mb-4 mt-xl-4">
             <h3 className="font-weight-normal mb-4">
-              Convert your visitors to real customers
+              We are the team with best customer services
             </h3>
             <p className="text-muted">
-              Option as can distributors. And to suppliers, given a copy the
-              horrible arrange yes, we had hundreds leave was more which a I the
-              king's had the so soon throughout in necessary which at way did
-              phase a young written, descriptions, late uninspired, to times
-              owner themselves them. Get sported uninspired, the a box to an to
-              but on been the succeed have couldn't set.
+              Hi, This is Ugarshen Dubey, we are working from last three year in
+              this field, when i started my journey in this field, i was to
+              young and i was working in small shop, while doing hard and smart
+              work i got more and more hike, but my dream was not that, i just
+              want be an self employee (entrepreneur), so i started my own work
+              shop with my friend and my brother and now i have 3 mistree, 8
+              helper, as well as we have painter, plumber, carpenter,
+              electrician, we help our customer with full satisfaction
+              guaranteed services, Thank you!
             </p>
             <a className="btn btn-outline-cyan mx-0 waves-effect btn-rounded">
               Read More <i className="fas fa-arrow-right fs-9 ml-2"></i>
