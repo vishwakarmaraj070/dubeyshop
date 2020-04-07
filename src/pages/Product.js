@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Product = (props) => {
   return (
     <div className="my-5 py-5" id="products">
-      <section className="magazine-section container text-white p-2">
+      <section className="magazine-section container text-white p-4">
         <h2 className="text-center font-weight-bold mb-4 pb-2 text-white">
           Products
         </h2>
@@ -21,7 +21,7 @@ const Product = (props) => {
                 <img
                   className="img-fluid"
                   src="https://mdbootstrap.com/img/Photos/Slides/1.jpg"
-                  alt="Sample image"
+                  alt="Sample"
                 />
                 <a>
                   <div className="mask rgba-white-slight"></div>

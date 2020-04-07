@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 const Contact = (props) => {
   return (
-    <div className="mt-5 py-5" id="contact">
-      <section className="contact-section dark-grey-text mb-5 container">
+    <div className="mt-5 pt-5 pb-3" id="contact">
+      <section className="contact-section dark-grey-text container">
         <h2 className="font-weight-bold mb-4 pb-2 text-center text-white">
           Contact
         </h2>

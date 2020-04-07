@@ -11,7 +11,7 @@ const Team = (props) => {
         <div className="row">
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div className="p-4">
-              <div className="avatar w-100 white d-flex justify-content-center align-items-center">
+              <div className="avatar w-100 white d-flex justify-content-center align-items-center bg-default">
                 <img
                   src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
                   className="img-fluid rounded-circle z-depth-1"
@@ -28,7 +28,7 @@ const Team = (props) => {
 
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div className="p-4">
-              <div className="avatar w-100 white d-flex justify-content-center align-items-center">
+              <div className="avatar w-100 white d-flex justify-content-center align-items-center bg-default">
                 <img
                   src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg"
                   className="img-fluid rounded-circle z-depth-1"
@@ -45,7 +45,7 @@ const Team = (props) => {
 
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div className="p-4">
-              <div className="avatar w-100 white d-flex justify-content-center align-items-center">
+              <div className="avatar w-100 white d-flex justify-content-center align-items-center bg-default">
                 <img
                   src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
                   className="img-fluid rounded-circle z-depth-1"
@@ -61,7 +61,7 @@ const Team = (props) => {
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div className="p-4">
-              <div className="avatar w-100 white d-flex justify-content-center align-items-center">
+              <div className="avatar w-100 white d-flex justify-content-center align-items-center bg-default">
                 <img
                   src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg"
                   className="img-fluid rounded-circle z-depth-1"

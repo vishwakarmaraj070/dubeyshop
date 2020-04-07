@@ -1,4 +1,5 @@
 import React from "react";
+import DubeyImg from "../assets/images/dubey.jpeg";
 
 const AboutUs = (props) => {
   return (
@@ -8,20 +9,18 @@ const AboutUs = (props) => {
           About Us
         </h2>
         <div className="row">
-          <div className="col-lg-5 col-md-12 mb-lg-0 mb-4">
-            <div className="view overlay rounded z-depth-1 mb-lg-0 mb-4">
-              <img
-                className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg"
-                alt="Sample image"
-              />
+          <div className="col-md-5 col-sm-12 mb-md-0 mb-4">
+            <div className="view overlay rounded z-depth-1 mb-lg-0 mb-4 ">
+              <div className="about-img">
+                <img className="img-fluid" src={DubeyImg} alt="Sample" />
+              </div>
               <a>
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
           </div>
 
-          <div className="col-lg-7 col-md-6 mb-md-0 mb-4 mt-xl-4">
+          <div className="col-md-7 col-sm-12 mb-md-0 mb-4 mt-xl-4">
             <h3 className="font-weight-normal mb-4">
               Convert your visitors to real customers
             </h3>

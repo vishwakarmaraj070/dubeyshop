@@ -21,7 +21,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar cyan ">
+    <nav className="navbar navbar-expand-md navbar-dark fixed-top scrolling-navbar cyan ">
       <div className="container smooth-scroll">
         <a
           className="navbar-brand"
@@ -127,7 +127,7 @@ const Navbar = (props) => {
           <ul className="navbar-nav nav-flex-icons">
             <li className="nav-item">
               <a
-                href="https://www.facebook.com/mdbootstrap"
+                href="https://www.facebook.com/ugarshen.dubey.58"
                 className="nav-link waves-effect"
                 target="_blank"
               >
@@ -136,7 +136,7 @@ const Navbar = (props) => {
             </li>
             <li className="nav-item">
               <a
-                href="https://twitter.com/MDBootstrap"
+                href="https://twitter.com"
                 className="nav-link waves-effect"
                 target="_blank"
               >
@@ -145,7 +145,7 @@ const Navbar = (props) => {
             </li>
             <li className="nav-item">
               <a
-                href="https://twitter.com/MDBootstrap"
+                href="https://www.youtube.com/channel/UCrx88sjSa6FQAwUau5cVlow?view_as=subscriber"
                 className="nav-link waves-effect"
                 target="_blank"
               >
@@ -154,7 +154,7 @@ const Navbar = (props) => {
             </li>
             <li className="nav-item">
               <a
-                href="https://twitter.com/MDBootstrap"
+                href="https://instagram.in"
                 className="nav-link waves-effect"
                 target="_blank"
               >
